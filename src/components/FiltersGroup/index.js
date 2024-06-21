@@ -75,7 +75,7 @@ const FiltersGroup = props => {
 
   const onChangeSearchInput = event => {
     const {changeSearchInput} = props
-    onChangeSearchInput(event.target.value)
+    changeSearchInput(event.target.value)
   }
   const renderSearchInput = () => {
     const {searchInput} = props
